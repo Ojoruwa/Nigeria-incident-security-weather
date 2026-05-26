@@ -1,0 +1,8 @@
+Route,States,Incidents,Deaths,BanditScore,TravelRisk,RiskLevel
+Abuja-Kaduna,"FCT, Kaduna",775,3298,0.61,3.99,Moderate
+Lagos-Ibadan,"Lagos, Oyo",800,1520,0.06,0.8,Low
+Benin-Ore,"Edo, Ondo",413,930,0.22,1.69,Low
+Kaduna-Kano,"Kaduna, Kano",635,3200,0.65,4.43,High
+Abuja-Lokoja,"FCT, Kogi",471,1404,0.27,2.07,Moderate
+Enugu-Port Harcourt,"Enugu, Rivers",394,1177,0.32,2.44,Moderate
+Sokoto-Zamfara,"Sokoto, Zamfara",301,3213,0.87,6.77,High
