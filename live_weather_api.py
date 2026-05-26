@@ -14,6 +14,18 @@ API_KEY = os.getenv(
     "OPENWEATHER_API_KEY"
 )
 
+if API_KEY is None:
+
+    try:
+        import streamlit as st
+
+        API_KEY = st.secrets[
+            "OPENWEATHER_API_KEY"
+        ]
+
+    except:
+        pass
+
 # =========================================
 # STATE COORDINATES
 # =========================================
